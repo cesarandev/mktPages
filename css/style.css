@@ -64,6 +64,8 @@ html {
         align-items: center;
         padding: 0px 30px;
         cursor: pointer;
+        text-decoration: none;
+        color: white;
     }
 
     .menu__footer {
@@ -148,9 +150,4 @@ footer {
     font-size: 1.8rem;
     text-align: center;
     padding: 0px 30px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
