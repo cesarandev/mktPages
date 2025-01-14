@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 62.5%;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    background-color: #FBBF0E;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: #1A2633;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    padding: 30px;
+
+    .menu__perfil {
+        text-align: center;
+
+        figure {
+            margin-bottom: 10px;
+            
+            img {
+                height: 80px;
+            }
+
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+    }
+
+    .menu__element {
+        height: 50px;
+        border-radius: 25px;
+        width: 100%;
+        background-color: #073261;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        padding: 0px 30px;
+        cursor: pointer;
+    }
+
+    .menu__footer {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        
+        .menu__footer__element {
+            display: flex;
+            align-items: center;
+            background-color: #FBBF0E;
+            color: #1A2633;
+            font-size: 1.5rem;
+            padding: 5px 5px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+    }
+}
+
+.menu__element, .menu__footer__element {
+    cursor: pointer;
+}
+
+span {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.catalogo {
+    background-image: url('../img/icons/icons8-dosier-50.png');
+    background-repeat: none;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.nutrition {
+    background-image: url('../img/icons/icons8-alimentación-saludable-30.png');
+    background-repeat: none;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.whatsapp {
+    background-image: url('../img/icons/icons8-whatsapp-48.png');
+    background-repeat: none;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.facebook {
+    background-image: url('../img/icons/icons8-facebook-nuevo-60.png');
+    background-repeat: none;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.instagram {
+    background-image: url('../img/icons/icons8-instagram-48.png');
+    background-repeat: none;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.instagram {
+    background-image: url('../img/icons/icons8-instagram-48.png');
+    background-repeat: none;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.location {
+    background-image: url('../img/icons/icons8-marcador-50.png');
+    background-repeat: none;
+    background-size: cover;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0px 30px;
+}
