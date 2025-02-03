@@ -100,8 +100,15 @@ span {
     margin-right: 5px;
 }
 
-.catalogo {
-    background-image: url('../img/icons/icons8-dosier-50.png');
+.tienda {
+    background-image: url('../img/icons/icons8-compras-48.png');
+    background-repeat: none;
+    background-size: cover;
+    filter: invert(100%);
+}
+
+.wpages {
+    background-image: url('../img/icons/icons8-web-50.png');
     background-repeat: none;
     background-size: cover;
     filter: invert(100%);
